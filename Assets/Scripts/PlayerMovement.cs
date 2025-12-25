@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void HandleShooting()
     {
-        if (Input.GetKeyDown(KeyCode.J) && Time.time >= nextfireTime)
+        if (Input.GetKeyDown(KeyCode.Space) && Time.time >= nextfireTime)
         {
             // reset next fire.
             nextfireTime = Time.time + fireRate;
