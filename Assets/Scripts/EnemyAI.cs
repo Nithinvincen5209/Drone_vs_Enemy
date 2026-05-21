@@ -2,7 +2,8 @@ using UnityEngine;
 using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
-{
+{  
+    // changes in branch 1.
     [Header("Patrol Settings")]
     public Transform[] waypoints;
     public float patrolSpeed;
